@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  margin: auto;
+  font-family: quicksand;
+}
+
+#container {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(188, 202, 149);
+}
+.header {
+  height: 72px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.main-banner{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main-banner img {
+width:100%;
+max-width: 1330px;
+
+}
+.cards{
+  width: 100%;
+}
+.card{
+  width:700px;
+}
+.about-card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-bottom:20px;
+    align-items: center;
+    width:360px;
+    height: 164px;
+}
+.about-card p{
+  font-family: Quicksand;
+font-size: 14px !important;
+font-weight: 500;
+line-height: 22.4px;
+text-align: center;
+width: 350px;
+height: 88px;
+}
+.about-card div{
+    width: 360px;
+height: 68px;
+margin-right: 20px;
+    font-family: DM Sans;
+font-size: 28px;
+font-weight: 700;
+line-height: 33.6px;
+text-align: center;
+color:#E76943;
+margin-top: 10px;
+
+}
+
+.card1, .card2, .card3{
+display: flex;
+justify-content: space-between;
+width: 360px;
+height: 200px;
+margin-top: 20px;
+padding-top: 20px;
+gap: 28px;
+}
+.card p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.card div{
+    margin-left: 20px;
+  line-height:1.6;
+
+}
+
+.card div h4{
+  color:#E76943;
+  margin-bottom:15px;
+}
+
+.player-thoughts{
+  height: 672px;
+  width:100%;
+  max-width: 700px;
+  margin-top: 50px;
+}
+.players{
+  display: flex;
+  height: 130px;
+  width:100%;
+  font-family:DM Sans;
+  font-weight: 700;
+  font-size:15px;
+  line-height:22px;
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.player-name{
+   margin-top: 10px;
+   font-weight: 400;
+}
+.players .line{
+  padding-top: 20px;
+}
+
+.footer{
+  width:100%;
+height: 200px;
+background-color: rgb(248, 242, 235);
+display: flex;
+justify-content:center;
+align-items: center;
+padding-bottom: 50px;
+}
+.footer .left-div{
+  width: 150px;
+height: 134px;
+}
+.footer .left-div p{
+font-size: 11px;
+font-weight: 500;
+margin-top: 10px;
+}
+.footer .right-div{
+  width:150px;
+height: 139px;
+display: flex;
+margin-top: 10px;
+
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.footer .right-div p{
+  padding-top: 5px;
+  cursor: pointer;
+}
+.footer .social-media{
+  width:100px;
+height:16px;
+margin: 0px 5px;
+}
+.footer .social-media img{
+  height: 20px;
+}
+.footer .app-store img{
+   margin-top:12px;
+   margin-left: 30px;
+}
+
